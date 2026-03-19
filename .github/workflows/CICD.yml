@@ -18,6 +18,6 @@ jobs:
 
     steps:
     - name: Print GH Variable
-      run: echo $({ vars.DOMAIN(}
+      run: echo ${{ vars.DOMAIN}}
 
    
